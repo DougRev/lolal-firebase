@@ -1,0 +1,72 @@
+.loot-boxes-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    background-color: var(--pakistan-green);
+}
+
+.loot-box-list {
+    display: flex;
+    text-align: center;
+}
+
+.loot-box-list img {
+    width: 150px;
+}
+
+.loot-box {
+    text-align: center;
+    padding-bottom: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.loot-box-summary {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.loot-box-summary img{
+    width: 150px;
+    height: 150px;
+}
+
+.loot-box-summary:hover {
+    transform: translateY(-5px);
+
+}
+
+.loot-box button {
+    background-color: var(--tiger-eye);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.loot-box button:hover {
+    background-color: var(--dark-moss-green);
+    border: solid 1px white;
+
+}
+
+.loot-box button.active {
+    border: solid 1px white;
+    
+}
+
+.details-btn {
+    background-color: var(--tiger-eye);
+    padding: 10px;
+
+}
+
+.details-btn:hover {
+    background-color: var(--cornsilk);
+    color: black;
+}
+
+

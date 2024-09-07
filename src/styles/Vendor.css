@@ -1,0 +1,65 @@
+/* Prefix all classes with 'vendor-' to ensure specificity */
+.vendor-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.vendor-title {
+    text-align: center;
+    color: var(--tiger-eye);
+}
+
+.vendor-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.vendor-table th,
+.vendor-table td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid var(--cornsilk);
+}
+
+.vendor-table th {
+    background-color: var(--earth-yellow);
+    color:black;
+}
+
+.vendor-table td {
+    font-size: 16px;
+}
+
+.vendor-button {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.vendor-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .vendor-wrapper {
+        padding: 10px;
+    }
+
+    .vendor-table th,
+    .vendor-table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .vendor-button {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+}
